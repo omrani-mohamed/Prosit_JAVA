@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2c03979f-9d51-4f26-8819-ee9c3c641a57" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit1/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit1/MyZoo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit1/src/ZooManagement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit2/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit2/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit2/MyZoo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit2/src/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit2/src/Zoo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit2/src/ZooManagement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit3/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit3/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit3/MyZoo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit3/src/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit3/src/Zoo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit3/src/ZooManagement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit4/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit4/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit4/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit4/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit4/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit4/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit4/MyZoo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit4/src/tn/esprit/gestionzoo/entities/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit4/src/tn/esprit/gestionzoo/entities/Zoo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit4/src/tn/esprit/gestionzoo/main/ZooManagement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit5/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit5/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit5/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit5/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit5/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit5/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit5/MyZoo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit5/src/tn/esprit/gestionzoo/entities/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit5/src/tn/esprit/gestionzoo/entities/Aquatic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit5/src/tn/esprit/gestionzoo/entities/Dolphin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit5/src/tn/esprit/gestionzoo/entities/Penguin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit5/src/tn/esprit/gestionzoo/entities/Terrestrial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit5/src/tn/esprit/gestionzoo/entities/Zoo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyZoo_Prosit5/src/tn/esprit/gestionzoo/main/ZooManagement.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2d3kQB1CX1dDAD6j3GwGouDq9wJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ZooManagement.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/MOHAMED AMINE/OneDrive - ESPRIT/Bureau/prosit JAVA/Prosit_JAVA/MyZoo_Prosit1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-jbr-17.0.9-4caba194b151-51f1b679" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c03979f-9d51-4f26-8819-ee9c3c641a57" name="Changes" comment="" />
+      <created>1709244134851</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709244134851</updated>
+      <workItem from="1709244135940" duration="2595000" />
+      <workItem from="1709248297479" duration="3412000" />
+      <workItem from="1709251751320" duration="1085000" />
+      <workItem from="1709282419180" duration="661000" />
+      <workItem from="1709283501439" duration="4994000" />
+      <workItem from="1709737009264" duration="677000" />
+      <workItem from="1709738203152" duration="2669000" />
+      <workItem from="1709740914604" duration="1689000" />
+      <workItem from="1709850968870" duration="13000" />
+      <workItem from="1709852197770" duration="62000" />
+      <workItem from="1709859642380" duration="1643000" />
+      <workItem from="1709886276285" duration="827000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
