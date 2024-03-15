@@ -17,6 +17,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -33,14 +36,16 @@
     "Application.ZooManagement.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/MOHAMED AMINE/OneDrive - ESPRIT/Bureau/prosit JAVA/MyZoo_Prosit5",
+    "last_opened_file_path": "C:/Users/MOHAMED AMINE/OneDrive - ESPRIT/Bureau/prosit JAVA/Prosit_JAVA/MyZoo_Prosit1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -83,7 +88,10 @@
       <workItem from="1709853279257" duration="5891000" />
       <workItem from="1709859352995" duration="2139000" />
       <workItem from="1709861539113" duration="472000" />
-      <workItem from="1709862030257" duration="796000" />
+      <workItem from="1709862030257" duration="103000" />
+      <workItem from="1709862210317" duration="2265000" />
+      <workItem from="1709867352896" duration="750000" />
+      <workItem from="1709886263898" duration="841000" />
     </task>
     <servers />
   </component>

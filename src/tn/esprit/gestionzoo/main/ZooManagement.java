@@ -1,6 +1,5 @@
 package tn.esprit.gestionzoo.main;
-import tn.esprit.gestionzoo.entities.Animal;
-import tn.esprit.gestionzoo.entities.Zoo;
+import tn.esprit.gestionzoo.entities.*;
 
 import java.util.Objects;
 import java.util.Scanner;
@@ -50,5 +49,21 @@ public class ZooManagement {
         System.out.println(myZoo.searchAnimal("scar Face"));
         Zoo zoo = Zoo.comparerZoo(Zoo1, myZoo);
         System.out.println(zoo);
+
+        Dolphin dolphin = new Dolphin();
+        dolphin.setSwimmingSpeed(12.5f);
+        Penguin penguin = new Penguin();
+        penguin.setSwimmingDepth(10.6f);
+        Terrestrial Hyenas = new Terrestrial();
+        Hyenas.setNbrLegs(4);
+        Aquatic shark = new Aquatic();
+        shark.setHabitat("ocean");
+        System.out.println(dolphin);
+        System.out.println(penguin);
+        System.out.println(shark);
+        System.out.println(Hyenas);
+        shark.swim();
+        dolphin.swim();
+        penguin.swim();
     }
 }
