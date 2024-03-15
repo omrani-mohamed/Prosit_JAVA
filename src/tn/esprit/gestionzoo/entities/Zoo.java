@@ -1,10 +1,43 @@
-import java.util.Arrays;
+package tn.esprit.gestionzoo.entities;
+
 public class Zoo {
     static final int NUMBER_OF_CAGES = 25;
-    String city;
-    String name;
-    Animal[] animals;
-    int nbranimals=0;
+    private String city;
+    private String name;
+    private Animal[] animals;
+    private int nbranimals=0;
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Animal[] getAnimals() {
+        return animals;
+    }
+
+    public void setAnimals(Animal[] animals) {
+        this.animals = animals;
+    }
+
+    public int getNbranimals() {
+        return nbranimals;
+    }
+
+    public void setNbranimals(int nbranimals) {
+        this.nbranimals = nbranimals;
+    }
 
     public Zoo(){}
 
@@ -16,27 +49,27 @@ public class Zoo {
 
    @Override
     public String toString() {
-        return "Zoo{" +
+        return "tn.esprit.gestionzoo.entities.Zoo{" +
                 "city='" + city + '\'' +
                 ", name='" + name + '\'' +
                 ", nbranimals=" + nbranimals +
                 '}';
     }
 
-    void displayZoo() {
-        System.out.println("The name of the Zoo is : " + name);
-        System.out.println("The city where this Zoo is located is : " + city);
-        System.out.println("The number of animals in this Zoo is : " + nbranimals);
+    public void displayZoo() {
+        System.out.println("The name of the tn.esprit.gestionzoo.entities.Zoo is : " + name);
+        System.out.println("The city where this tn.esprit.gestionzoo.entities.Zoo is located is : " + city);
+        System.out.println("The number of animals in this tn.esprit.gestionzoo.entities.Zoo is : " + nbranimals);
     }
 
     public boolean addAnimal(Animal animal) {
         int test=-1;
         for (int j=0;j<nbranimals;j++){
-            if (animals[j].name.equals(animal.name)){
+            if (animals[j].getName().equals(animal.getName())){
                 test=1;
             }
         }
-        if ((nbranimals < NUMBER_OF_CAGES)&&(test == -1)) {
+        if ((!isZooFull())&&(test == -1)) {
             animals[nbranimals] = animal;
             nbranimals++;
             return true;
@@ -45,7 +78,7 @@ public class Zoo {
             return false;
         }
     }
-    void displayAnimals() {
+    public void displayAnimals() {
         System.out.println("The List Of Animals Living in " + name + ":");
         for (int i = 0; i < nbranimals; i++) {
             System.out.println(animals[i]);
@@ -53,16 +86,16 @@ public class Zoo {
     }
     public int searchAnimal(String name) {
         for (int i = 0; i < nbranimals; i++) {
-            if (animals[i].name.equals(name)) {
+            if (animals[i].getName().equals(name)) {
                 return i;
             }
         }
         return -1;
     }
     boolean removeAnimal(Animal animal){
-        int index=searchAnimal(animal.name);
+        int index=searchAnimal(animal.getName());
         if (index==-1) {
-            System.out.println("this animal doesn't exist in this Zoo");
+            System.out.println("this animal doesn't exist in this tn.esprit.gestionzoo.entities.Zoo");
             return false;
         }
             for (int i = index; i < nbranimals; i++) {

@@ -34,7 +34,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/MOHAMED AMINE/OneDrive - ESPRIT/Bureau/prosit JAVA/MyZoo_Prosit4",
+    "last_opened_file_path": "C:/Users/MOHAMED AMINE/OneDrive - ESPRIT/Bureau/prosit JAVA/MyZoo_Prosit5",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -46,7 +46,7 @@
 }]]></component>
   <component name="RunManager">
     <configuration name="ZooManagement" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ZooManagement" />
+      <option name="MAIN_CLASS_NAME" value="tn.esprit.gestionzoo.main.ZooManagement" />
       <module name="MyZoo" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,7 +81,9 @@
       <workItem from="1709851109350" duration="1085000" />
       <workItem from="1709852644181" duration="616000" />
       <workItem from="1709853279257" duration="5891000" />
-      <workItem from="1709859352995" duration="3376000" />
+      <workItem from="1709859352995" duration="2139000" />
+      <workItem from="1709861539113" duration="472000" />
+      <workItem from="1709862030257" duration="796000" />
     </task>
     <servers />
   </component>

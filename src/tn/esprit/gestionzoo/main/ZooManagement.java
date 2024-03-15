@@ -1,24 +1,28 @@
+package tn.esprit.gestionzoo.main;
+import tn.esprit.gestionzoo.entities.Animal;
+import tn.esprit.gestionzoo.entities.Zoo;
+
 import java.util.Objects;
 import java.util.Scanner;
 public class ZooManagement {
     public static void main(String[] args) {
 
         Animal Crocodile = new Animal();
-        Crocodile.name = "Larry";
-        Crocodile.age = 5;
-        Crocodile.family = "Crocodile-Carnivores";
-        Crocodile.isMammal = false;
+        Crocodile.setName("Larry");
+        Crocodile.setAge(5);
+        Crocodile.setFamily("Crocodile-Carnivores");
+        Crocodile.setMammal(false);
 
         Animal Monkey = new Animal();
-        Monkey.name = "Monkeys-Steve";
-        Monkey.age = 8;
-        Monkey.family = "Herbivore";
-        Monkey.isMammal = true;
+        Monkey.setName("Monkeys-Steve");
+        Monkey.setAge(8);
+        Monkey.setFamily("Herbivore");
+        Monkey.setMammal(true);
 
         Zoo Zoo1=new Zoo();
-        Zoo1.name="WildePark";
-        Zoo1.nbranimals=2;
-        Zoo1.city="Sousse";
+        Zoo1.setName("WildePark");
+        Zoo1.setNbranimals(2);
+        Zoo1.setCity("Sousse");
 
         Animal Lion=new Animal(3,"Lions-Carnivores","scar Face",true);
         Animal Lion1=new Animal(3,"Lions-Carnivores","scar Face",true);
