@@ -17,19 +17,15 @@ public class ZooManagement {
 
         Zoo Zoo1=new Zoo();
         Zoo1.name="WildePark";
+        Zoo1.nbranimals=2;
         Zoo1.city="Sousse";
 
         Animal Lion=new Animal(3,"Lions-Carnivores","scar Face",true);
         Animal Lion1=new Animal(3,"Lions-Carnivores","scar Face",true);
         Animal Tiger=new Animal(1,"Tigers-Carnivores","Megatron",true);
         Animal Giraffe=new Animal(5,"Giraffes-herbivores","Stacy",true);
-        byte nbrcages;
-        Scanner scanner = new Scanner(System.in);
-        do {
-            System.out.println("How many cages are there in the Zoo ? : ");
-            nbrcages = Byte.parseByte(scanner.nextLine());
-        } while (nbrcages <= 0 || nbrcages > 25);
-        Zoo myZoo=new Zoo(nbrcages,"Tunis","CloserToAnimals");
+
+        Zoo myZoo=new Zoo("Tunis","CloserToAnimals");
         myZoo.displayZoo();
         System.out.println();
         System.out.println(myZoo.toString());
@@ -43,11 +39,12 @@ public class ZooManagement {
         System.out.println(Tiger);
 
         System.out.println(myZoo.addAnimal(Lion));
-        System.out.println(myZoo.addAnimal(Lion1));
         System.out.println(myZoo.addAnimal(Tiger));
         System.out.println(myZoo.addAnimal(Giraffe));
 
         myZoo.displayAnimals();
         System.out.println(myZoo.searchAnimal("scar Face"));
+        Zoo zoo = Zoo.comparerZoo(Zoo1, myZoo);
+        System.out.println(zoo);
     }
 }

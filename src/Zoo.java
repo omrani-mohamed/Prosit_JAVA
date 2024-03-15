@@ -1,6 +1,6 @@
 import java.util.Arrays;
 public class Zoo {
-    int nbrcages;
+    static final int NUMBER_OF_CAGES = 25;
     String city;
     String name;
     Animal[] animals;
@@ -8,11 +8,10 @@ public class Zoo {
 
     public Zoo(){}
 
-    public Zoo(int nbrcages,String city, String name) {
+    public Zoo(String city, String name) {
         this.city = city;
         this.name = name;
-        this.nbrcages=nbrcages;
-        animals = new Animal[nbrcages];
+        animals = new Animal[NUMBER_OF_CAGES];
     }
 
    @Override
@@ -37,7 +36,7 @@ public class Zoo {
                 test=1;
             }
         }
-        if ((nbranimals < nbrcages)&&(test == -1)) {
+        if ((nbranimals < NUMBER_OF_CAGES)&&(test == -1)) {
             animals[nbranimals] = animal;
             nbranimals++;
             return true;
@@ -46,7 +45,6 @@ public class Zoo {
             return false;
         }
     }
-    jj
     void displayAnimals() {
         System.out.println("The List Of Animals Living in " + name + ":");
         for (int i = 0; i < nbranimals; i++) {
@@ -74,6 +72,13 @@ public class Zoo {
             nbranimals--;
             System.out.println("The animal has been removed successfully");
             return true;
+    }
+    public boolean isZooFull() {
+        return nbranimals == NUMBER_OF_CAGES;
+    }
+
+    public static Zoo comparerZoo(Zoo z1, Zoo z2) {
+        return (z1.nbranimals > z2.nbranimals) ? z1 : z2;
     }
 }
 
