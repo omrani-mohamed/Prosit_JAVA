@@ -56,14 +56,13 @@ public class ZooManagement {
         penguin.setSwimmingDepth(10.6f);
         Terrestrial Hyenas = new Terrestrial();
         Hyenas.setNbrLegs(4);
-        Aquatic shark = new Aquatic();
-        shark.setHabitat("ocean");
         System.out.println(dolphin);
         System.out.println(penguin);
-        System.out.println(shark);
         System.out.println(Hyenas);
-        shark.swim();
         dolphin.swim();
         penguin.swim();
+        zoo.addAquaticAnimal(penguin);
+        zoo.addAquaticAnimal(dolphin);
+
     }
 }
